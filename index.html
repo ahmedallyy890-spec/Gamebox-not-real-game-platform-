@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gamebox official site</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="home">
+    <dialog id="Menu">
+        <div class="nav-list-menu">
+                <ul>
+                    <li><a href="#home" onclick="Menu.close()">Home</a></li>
+                    <li><a href="#about" onclick="Menu.close()">About</a></li>
+                    <li><a href="#games" onclick="Menu.close()">Games</a></li>
+                    <li><a href="#contact" onclick="Menu.close()">Contact</a></li>
+                </ul>
+                <button onclick="Menu.close()">Close</button>
+        </div>
+    </dialog>
+    <div class="mobile-menu">
+        <p onclick="Menu.showModal()">☰</p>
+    </div>
+    <header>
+        <nav class="navigation">
+            <div class="logo">
+                GameBox
+            </div>
+            <div class="nav-list">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#games">Games</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <br>
+    <section class="main" >
+        <h1 class="game-img">🎮</h1>
+        <h1>Welcome to <span>GameBox</span></h1>
+        <div style="text-align: center;">
+            <a href="#games" class="main-btn">View Games</a>
+        </div>
+    </section>
+    <br>
+    <section class="about" id="about">
+        <h2 class="title">About GameBox</h2>
+        <p>
+
+            GameBox is a modern and dynamic online gaming platform built to deliver a seamless experience for players of all ages. <br>
+            The website brings together a wide variety of games,<br> ranging from high-speed action titles and competitive challenges to calm strategy adventures and creative sandbox experiences. <br>
+            With its clean interface and intuitive design, GameBox makes it easy for users to explore new games, follow trending titles, and return to their favorites with just a click. <br>
+            The platform also offers personalized recommendations based on your playstyle, detailed community reviews, and frequent updates that keep the library fresh and exciting. <br>
+            Whether you’re a casual gamer looking for a quick fun session or a dedicated player aiming for high scores and mastery, GameBox provides a smooth, engaging, and consistently enjoyable gaming world that you can access anytime, anywhere.
+
+        </p>
+    </section>
+    <section class="games" id="games">
+        <h2 class="title" style="color: rgb(255, 255, 255);">Games</h2>
+        <div class="cards">
+            <div class="card">
+                <img src="images/god-of-war-game-series-franchise-console.avif" alt="god of war image">
+                <h3>God Of War</h3>
+            </div>
+            <div class="card">
+                <img src="images/11307uYG0CXzRuA9aryByTHYrQLFz-HVQ3VVl7aAysxK15HMpqjkAIcC_R5vdfZt52hAXQNHoYhSuoSq_46_MT_tDBcLu49I.webp" alt="minecraft image">
+                <h3>Minecraft</h3>
+            </div>
+            <div class="card">
+                <img src="images/OIP2.webp" alt="G T A 5 image">
+                <h3>GTA 5</h3>
+            </div>
+            <div class="card">
+                <img src="images/OIP.webp" alt="the last of us image">
+                <h3>The Last Of Us</h3>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div style="text-align: center;">
+            <a href="https://store.steampowered.com/" class="games-btn" target="_blank">More Games</a>
+        </div>
+        <br>
+
+    </section>
+    <section class="about" id="contact">
+        <h2 class="title">Contact Us</h2>
+        <div class="icons" style="text-align: center;">
+            <a href="https://www.youtube.com/@Steam" target="_blank"><img src="images/Youtube Icon.png" alt="Youtube image"></a>
+            <a href="https://www.tiktok.com/@steam_official_pc" target="_blank"><img src="images/Tiktok Icon.png" alt="Tik tok image"></a>
+            <a href="https://x.com/Steam" target="_blank"><img src="images/Twitter Icon.png" alt="Twitter image"></a>
+        </div>
+    </section>
+    <footer>
+        <p class="footer-title">Powered by <strong>Steam</strong></p>
+    </footer>
+</body>
+</html>
